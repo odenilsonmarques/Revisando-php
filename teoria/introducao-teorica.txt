@@ -1,0 +1,56 @@
+O PHP TEVE SUA PRIMEIRA VERSÃO ENTRE 1992 - 1993, SEU START FOI DADO PELO DINAMARQUÊS (RASMUS LERDORF) QUE JA ERA UM DESENVOLVEDOR WEB E UTILIZAVA A LINGUAGEM C E    ESSES CÓDIGOS VIRARIAM UM FORMULÁRIO HTML, OU SEJA ELE PROGRAMAVA EM C E DEPOIS CONVERTERIA ESSES CÓDIGOS EM HTML. RASMUS TEVE A IDEIA DE CRIAR UM CONJUNTO DE FERRAMENTAS QUE INICIALMENTE TEVE O NOME DE PHPT (PERSONAL HOME PAGE TOOLS), BASICAMENTE ERA INSERIR EM UMA MESMA PÁGINA HTML E PHP 
+
+
+- LOGO DEPOIS EM 1994 O PHPT VIRARIA O PHP(Hypertext Preprocessor) AGORA COM O OBJETIVO DE PROCESSAR OS TEXTOS HTML (Hyper Text Markup Language)
+
+- EM 1997 A EMPRESA ZEND TECHNOLOGIES ASSUME O PHP E FAZ UM SERIE DE MELHORIAS LANÇANDO A VERSAO 2 DO PHP (LEMBRANDO QUE O PHP É UMA LIGUAGEM DE CÓDIGO LIVRE)
+
+- EM 1998 PHP3
+
+- EM 2000 PHP4 ORIENTADO A OBJETOS
+
+- EM 2004 PHP5 UMA DAS LINGUAGEM MAIS USADAS
+
+- EM 2009 PHP5.3
+
+- EM 2012 PHP5.4
+
+- EM 2015 PHP7 (LINGUAGEM REESCRITA)
+
+- EM 2016 PHP7.1 
+
+- EM 2019 PHP7.4
+
+- EM 2020 PHP8 (LINGUAGEM MAIS RÁPIDA)
+
+- EM 2021 PHP8.1 
+
+DETALHE:QUANTO MAIS RÁPIDO A LINGUAGEM FOR DE MENOS RECURSOS O SERVIDOR PRECISARÁ, NO INICIO O PHP ERA LENTO E NESSE CASO QUANDO SE UTILIZAVA A MESMA ERA PRECISO UM SERVIDOR COM MUITOS RECURSOS, PORÉM A PARTIR DO MOMENTO QUE A LINGUAGEM FOI REESCRITA, SE TORNOU MAIS RÁPIDA E BEM UTILIZADAS PELOS DESENVOLVEDORES
+
+- COMANDO PARA INICIAR UM SEVIDOR BASICO LOCAL DO PHP 
+ php -S localhost:8000,  DEPOIS ABRIR O NAVEGADOR E DIGITAR LOCALHOST:8000 -t nome_do_diretorio
+
+S -> servidor do php
+localhost ->servidor local
+8000->porta
+
+ 
+
+
+- COM PHP JA INSTALADO PODEMOS FAZER ALGUNS TESTES PELO TEMINAL, ATRAVÉS DO COMANDO php -a (um terminal interativo será habilitado e com isso se consegue fazer algus testes ), por exemplo: digitar echo "texto"; ou echo 1 + 2; E DA UM ENTER.
+
+
+Nota 1: caso em uma versão tenha 3 digitos, por exemplo: php v8.2.1 o terceiro digito quer dizer que ouve uma correção de um bug nessa versao 8.2
+
+Nota 2 : No php se usa o PONTO quando se refere a numeros quebrado, por exemplo: 10.2. Isso porque a linguagem usa o formato americano no BRASIL se usa a virgula porque devido o sistema decimal 
+
+- variavel , nada mais é do que um espaço na memoria que pode ou não ter seu conteúdo altereado
+- Uma boa dica é usar o padrão camelCase.
+exe: $nomeCompleto
+
+- uma dica é bom não fechar a tag php, pois tudo que tiver depois da tag fechada vai ser visto na tela
+- uma dica é sempre bom criar constante co letra maiuscula PRA FUTURAS CONSULTAS. EXE: const CPF, USAR SEM O CIFRÃO MESMO
+
+-uma dica no PHP 8 JA TEM A ESTRUTURA MATCH(BEM PARECEIDO COM O SWITH)
+
+- ATENÇÃO CRIPTOGRAFIA COM BASE64, NÃO É SEGURA PORQUE ASSIIM COM SE PODE ENCODAR , PODE-SE DECODAR
