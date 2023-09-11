@@ -4,7 +4,7 @@ $contador = 1;
 
 while($contador <= 10){
 
-    echo "olha o pente, olha o pente, olha o pente <br>";
+    echo "ô o pente, ô o pente, ô o pente <br>";
 
     $contador++;
 }
