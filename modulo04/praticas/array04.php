@@ -1,13 +1,27 @@
 <?php
  
+
  $alunos = [
 
-    'Alandia kelly',
-    'Ana patricia',
-    'Bianca Maria',
-    'Carol Araujo',
-    'Daniel Marciel'
+    [
+        'Alandia kelly', 
+        8
+    ],
+    [
+        'Ana patricia', 
+        9
+    ],
+    [
+        'Bianca Maria', 
+        10
+    ],
+    [
+        'Carol Araujo', 
+        7
+    ]
+    
  ];
+
 
 //  var_dump($alunos);
 
@@ -17,12 +31,14 @@
  <table border=1>
     <tr>
         <th>Nomes dos alunos</th>
+        <th>Notas</th>
     </tr>
 
     <?php 
         foreach($alunos as $cadaAluno){
             echo '<tr>';
-                echo "<td>{$cadaAluno}</td>";
+                echo "<td>{$cadaAluno[0]}</td>";
+                echo "<td>{$cadaAluno[1]}</td>";
             echo '</tr>';
         }
     ?>
