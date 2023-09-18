@@ -22,8 +22,10 @@
     
  ];
 
-
-//  var_dump($alunos);
+ echo
+ '<pre>';
+    var_dump($alunos);
+ '</pre>';
 
  ?>
  
