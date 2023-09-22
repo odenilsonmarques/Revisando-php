@@ -7,7 +7,5 @@ if($_GET){
 }
 
 
-
-
 // exibindo todos os dados presente na url
 var_dump($_GET);
