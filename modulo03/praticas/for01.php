@@ -10,7 +10,7 @@
 </select>
 
 <select>
-    <option value="">---Selecione o dia---</option>
+    <option value="">---Selecione o dia do mes---</option>
 
     <?php
         for($dia = 1; $dia <= 31; $dia++){
@@ -27,4 +27,14 @@
             echo "<option>{$mes}</option>";
         }
     ?>
+</select>
+
+<select>
+        <option value="">Selecione o dia da semana</option>
+        
+        <?php 
+         for($diaSemana = 1; $diaSemana<=7; $diaSemana++){
+            echo"<option>{$diaSemana}</option>";
+         }
+        ?>
 </select>
