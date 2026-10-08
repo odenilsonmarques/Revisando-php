@@ -1,6 +1,6 @@
 <?php
 
-$mes = 3;
+$mes = 1;
 switch ($mes) {
     case 1:
         echo "Janeiro";

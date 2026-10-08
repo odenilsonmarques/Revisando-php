@@ -9,5 +9,5 @@ echo '<pre>';
     if($_SERVER['REQUEST_URI'] == '/server.php'){
         echo 'ok';
     }else{
-        echo 'tentenovamente';
+        echo 'tente novamente';
     }

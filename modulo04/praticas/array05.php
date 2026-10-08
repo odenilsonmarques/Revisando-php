@@ -9,7 +9,7 @@ $numerosPares = [
 ];
 
 $cont = 0;
-var_dump($numerosPares);
+
 
 echo'<h1>Números pares</h1>';
 echo'<ul>';

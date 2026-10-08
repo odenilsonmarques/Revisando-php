@@ -11,3 +11,7 @@
 const RG = '123321234';
 
 echo "Numero do RG ".RG; 
+
+
+const CEP = '65137000';
+echo "<br>CEP: ".CEP;

@@ -8,4 +8,9 @@ if($_GET){
 
 
 // exibindo todos os dados presente na url
+echo'<pre>';
 var_dump($_GET);
+echo'</pre>';
+
+// deve-se passar dessa forma no navegador
+// http://localhost:8000/get.php?nome=Joao&idade=25

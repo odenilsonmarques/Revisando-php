@@ -7,6 +7,10 @@ $alunos = [
     'Carol'
 ];
 
+echo "<pre>";
+    var_dump($alunos);
+echo "</pre>";
+
 //acessand um elemento na posicao zero do array
 echo "Meu nome é {$alunos[0]}";
 

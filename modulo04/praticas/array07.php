@@ -36,10 +36,10 @@ $dados = [
     $a1, $a2
 ];
 
-// echo
-// '<pre>';
-//     var_dump($dados);
-// '</pre>';
+echo
+'<pre>';
+    var_dump($dados);
+'</pre>';
 
 ?>
 
@@ -58,9 +58,7 @@ $dados = [
                     echo "<td>{$dado['cidade']}</td>";
                     echo "<td>{$dado['telefone']}</td>";
                 echo '</tr>';
-
             }
         ?>
-
     </tbody>
 </table>

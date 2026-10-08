@@ -11,7 +11,7 @@ $frutas = [
 $frutas [] = 'Tangerina';
 
 // Lembrando, o php não obriga o desenvolvedor a seguir um indice após o outro, o programador pode definir a posição do indice, 
-// e alem disso os outros elementos que não foram definido não exitem
+// e alem disso os outros elementos que não foram definido não existem
 
 //adicionando elemento em uma posição especifica no array. 
 $frutas [10] = 'Goiaba';

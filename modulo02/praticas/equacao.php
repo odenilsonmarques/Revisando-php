@@ -5,9 +5,9 @@
 3º Escrevas as raízes
 */
 
-$a = 6;
-$b = -3;
-$c = 2;
+$a = 1;
+$b = 2;
+$c = 1;
 
 
 $delta = ($b * $b) - (4*$a*$b);

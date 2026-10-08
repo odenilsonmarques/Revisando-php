@@ -15,6 +15,9 @@ function register(){
 function listar(){
     // a funcao file, ler o arquivo csv e transforma-o em um array
     $contatos = file('dados/contatos.csv');
+    // echo'<pre>';
+    // var_dump($contatos);
+    // echo'</pre>';
     include 'telas/listar.php';
 }
 
