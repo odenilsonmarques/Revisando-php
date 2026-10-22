@@ -14,4 +14,4 @@ echo 'Operação selecionada: ' . $operacao . PHP_EOL;
 
 
 
-Proxima pratica iniciar de Equação
+Proxima pratica iniciar da pratica que usa a funão match
