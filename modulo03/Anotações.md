@@ -1,0 +1,1 @@
+Proxima pratica iniciar do laço FOR
