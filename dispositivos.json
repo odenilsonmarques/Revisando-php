@@ -1,0 +1,49 @@
+{
+    "dispositivos": [
+        {
+            "id": 1,
+            "nome": "Notebook",
+            "marca": "Dell",
+            "modelo": "Inspiron 3501",
+            "preco": 2899.9,
+            "disponivel": true,
+            "categoria": "Computador"
+        },
+        {
+            "id": 2,
+            "nome": "Smartphone",
+            "marca": "Samsung",
+            "modelo": "Galaxy A55",
+            "preco": 1899.0,
+            "disponivel": true,
+            "categoria": "Celular"
+        },
+        {
+            "id": 3,
+            "nome": "Monitor",
+            "marca": "LG",
+            "modelo": "UltraWide 29WQ600",
+            "preco": 1299.5,
+            "disponivel": false,
+            "categoria": "Acessório"
+        },
+        {
+            "id": 4,
+            "nome": "Teclado",
+            "marca": "Logitech",
+            "modelo": "K270",
+            "preco": 159.9,
+            "disponivel": true,
+            "categoria": "Periférico"
+        },
+        {
+            "id": 5,
+            "nome": "Mouse",
+            "marca": "Logitech",
+            "modelo": "M170",
+            "preco": 79.9,
+            "disponivel": true,
+            "categoria": "Periférico"
+        }
+    ]
+}

@@ -65,3 +65,32 @@ O interpretador do PHP lê e executa em tempo real.
 
 Ele interpreta o script e gera o resultado (HTML, JSON, etc.) que é enviado para o navegador.
 
+
+
+ARRAY
+É UM AESTRUTURA UTILIZADA PARA ARMAZENAR VÁRIOS VALORES DENTRO DE UMA ÚNICA VARIÁVEL
+
+POR EXEMPLO 
+Imagine que você precisa armazenar os nomes de cinco pessoas. Você poderia criar cinco variáveis diferentes, mas isso ficaria pouco prático.
+
+
+SEM USAR ARRAY
+<?php
+
+$nome1 = "João";
+$nome2 = "Maria";
+$nome3 = "Pedro";
+$nome4 = "Ana";
+$nome5 = "Carlos";
+
+?>
+
+UTILIZANDO ARRAY
+<?php
+
+$nomes = ["João", "Maria", "Pedro", "Ana", "Carlos"];
+
+?>
+
+
+
